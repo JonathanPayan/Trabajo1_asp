@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron text-center">
+    <h1>Biblioteca</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        
+        <button type="button" class="btn btn-secondary btn-lg">@Html.ActionLink("Agregar estudiante", "Index", "ESTUDIANTES")</button>
+    </div>
+    <div class="col-md-4">
+       
+        <button type="button" class="btn btn-secondary btn-lg">@Html.ActionLink("Agregar Libro", "Index", "LIBROS")</button>
+    </div>
+    <div class="col-md-4">
+        
+        <button type="button" class="btn btn-secondary btn-lg">@Html.ActionLink("Gestionar Préstamos", "Index", "PRESTAMO")</button>
+    </div>
+</div>
